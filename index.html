@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lotto Calculator</title>
+    <link rel="stylesheet" href="styles.css" />
+
+</head>
+
+<body>
+    <div class="container">
+        <header class="title">
+            <h1>Lotto Calculator</h1>
+			<div class="promo">
+			<h6>NEW</h6>
+        </header>
+
+        <main class="content">
+            <div class="info">
+                <header>
+                    <h2>The Irish Lotto</h2>
+					
+                </header>
+                <div class="description">
+                    <p>
+                        Since 16<sup>th</sup> April 1988, the Irish Lotto draw takes place
+                        every Saturday at 8pm. On 30<sup>th</sup> May 1990 an additional
+                        Wednesday evening draw was introduced.
+                    </p>
+                    <br />
+                    <p>
+                        Enter a date in the form to get the next three draw dates as well
+                        as the previous two draws.
+                    </p>
+                </div>
+            </div>
+
+            <div class="form">
+                <header>
+                    <h2>Enter a Date and Time</h2>
+                </header>
+                <form novalidate>
+                    <input type="text" id="date" name="date" title="MM/DD/YYYY hh:mm" autocomplete="off" />
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+
+            <div class="table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Draw Date</th>
+                            <th>Past or Future</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </main>
+    </div>
+    <script src="main.js" type="text/javascript"></script>
+</body>
+
+</html>
